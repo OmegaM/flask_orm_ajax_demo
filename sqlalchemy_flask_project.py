@@ -118,4 +118,4 @@ if __name__ == '__main__':
         # s1 = db.session.query(Student).filter(Student.name == 'student1').first()
         # print s1.course
         # print json.dumps(s1.to_json())
-        app.run(debug=True)
+        app.run(debug=True, port=9099)
