@@ -6,7 +6,7 @@ from flask.ext.sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:wxhwbx6666@localhost/sqlalchemy_test_db'
-app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
+app.config['SQLALCHEMY_ECHO'] = True
 db = SQLAlchemy(app)
 
 
